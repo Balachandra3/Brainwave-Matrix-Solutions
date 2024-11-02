@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fashion</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Notable&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Notable&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Galdeano&family=Notable&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=phone_enabled" />
+
+
+
+
+
+
+<STYLE>
+
+    #p{
+        font-family: "Notable", sans-serif;
+        font-size: 30px;
+        margin-left: 10px;
+
+    }
+    
+    .head{
+       
+        margin-left: 900px;
+        margin-top: -33px;
+       
+    }
+    .head a{
+        position: relative; 
+        padding-left: 50px;
+        color: rgb(252, 250, 250);
+        font-size: 18px;
+        text-decoration: none;
+        transition:0.3s ease-in-out;
+        text-decoration: 3.925s;
+        overflow: hidden;
+    }
+   .head a:hover{
+        color: orangered;
+        /* text-decoration: underline; */
+        text-transform:inherit;
+    }
+    .head a::after {
+    content: ""; /* Create a pseudo-element */
+    position: absolute; /* Position it absolutely */
+    left: 0; /* Align to the left */
+    bottom: 0; /* Align to the bottom */
+    width: 0px; /* Full width */
+    height: 2px; /* Height of the underline */
+    background: orangered; /* Color of the underline */
+    transform: scaleX(0); /* Start with no width (scaled down) */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+.head a:hover::after {
+    transform: scaleX(1); /* Scale to full width on hover */
+}
+    
+
+    
+    .div{
+        border: 2px solid white;
+        margin-top: -1020px;
+        
+    }
+
+
+    .text{
+        padding-left: 30px;
+        padding-top: 50px;
+        font-size: 90px;
+        color: #FF6600;
+        
+    }
+    /* .btn button{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 30px;
+        margin-left: 40px;
+        background-color: #a3d9eb;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        cursor: pointer;
+        mix-blend-mode: color-burn;
+       
+        
+    }
+    .btn{
+        margin-top: -60px;
+       
+    } */
+    .d{
+        color: black;
+    }
+    .i{
+        color: white;
+    }
+    
+    .box{
+        border: 10px solid #DBD3D3;
+        width: 1580px;
+        height: auto;
+        margin-top: 220px;
+    
+    }
+    #quote{
+        text-align: center;
+        font-family: "Rouge Script", cursive;
+        font-size: 30px;
+
+    }
+    #ss{
+        margin-left: 60px;
+        padding-top: 30px;
+    }
+    #ssd{
+        margin-left: 80px;
+        margin-top: 11px;
+    }
+
+    #ss1{
+        margin-left: 410px;
+        margin-top: -350px;
+    }
+
+    #ss1d{
+         margin-top: 11px;
+         margin-left: 12px;
+    }
+
+    #ss2{
+        margin-left: 770px;
+        margin-top :-790px;
+    }
+
+    #ss4{
+        margin-left: 1150px;
+        margin-top: -350px;
+    }
+   
+    #ss4d{
+        margin-left: 0px;
+        font-size: 30px;
+        margin-top: 11px;
+    }
+
+    
+ .phone  .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.footer{
+    border: 1px solid  #FFE3E3;
+    margin-top: 0px;
+    background-color: #B7B7B7;
+    width: 1597.5px;
+    height: 1150px;
+}
+
+#quote1 {
+    text-align: center;
+   border: 2px solid white;
+   margin-left: 710px;
+   margin-right: 90px;
+   margin-top: -300px;
+  
+}
+
+
+#quote2{
+    text-align: center;
+    border: 2px solid white;
+    margin-top: 420px;
+    margin-left: 10px;
+    padding-left: 0%;
+    margin-right: 820px;
+}
+
+#virat{
+    margin-left: 785px;
+    margin-top: -220px;
+}
+
+.logo image{
+    width: 60px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    
+}
+.logo{
+    margin-left: 500px;
+    margin-top: 160px;
+   margin-bottom: 12px;
+   
+}
+
+.thank{
+    margin-left: 550px;
+    margin-top: 60px;
+
+}
+
+.contact{
+    margin-left: 520px;
+    margin-top: 110px;
+}
+
+.quote{
+    margin-top: 90px;
+}
+
+
+.cart-info {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.add-to-cart {
+    background-color: #FF6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 100px;
+    padding-top: -180px;
+}
+
+.add-to-cart:hover {
+    background-color: #FF4500;
+}
+
+.contact-form {
+    width: 300px;
+    margin: 50px auto;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form button {
+    background-color: #FF6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #FF4500;
+}
+
+
+
+</STYLE>
+<body>
+    <header>
+        <div class="img">
+            <img   style="width: 1600px;height:1000px;"  src="first.jpg" alt="">
+        </div>
+
+        <div class="div">
+            <p id="p">THE FASHION</p>
+            <div class="head">
+
+            <a href="fashion.html" id="head">HOME</a>
+            <a href="shirts.html" id="head">SHIRTS</a>
+            <a href="#" id="head">PANTS</a>
+            <a href="#" id="head">JACKETS</a>
+        </div>
+        </div>
+    </header>
+    <nav>
+        
+        <div class="text">
+            <p><span class="d">D</span>ES<span class="i">I</span>GN</p>
+            <P>  <span class="d">Y</span>OU</P>
+            <P><span class="d">L</span>IKE</P>
+        </div>
+
+<!-- 
+        <div class="btn">
+            <button>Shop Now</button>
+        </div> -->
+    </nav>
+
+
+    <section>
+       
+        <div class="box" style="background-color: #DBD3D3;">
+            <div class="quote">
+
+            <p id="quote">"Fashion is part of the daily air and it changes all the time, with all the events.</p>
+               <p id="quote">  You can even see the approaching of a revolution in clothes. </p>
+               <p id="quote">  You can see and feel everything in clothes." —Diana Vreeland</p>
+            </div>
+            
+               <div id="ss">
+            <img  width="300px" src="sweatshirt.png" alt="">
+
+            <h6 id="ssd" style="font-size: 30px;">Black Hoodie</h6>
+            <button class="add-to-cart" data-product="Black Hoodie">Add to Cart</button>
+
+        </div>
+
+
+        <div id="ss1">
+            <img  width="300px"  height="450px" src="sweatshirt2.jpg" alt="">
+
+            <h6  id="ss1d" style="font-size: 30px;">The GREY Hoodie</h6>
+            <button class="add-to-cart" data-product="The GREY Hoodie">Add to Cart</button>
+        </div>
+
+        <div id="ss2">
+            <img  width="300px" height="450px"  src="sweatshirt3.webp" alt="">
+            <h6 style="font-size: 30px; margin-top: 11px;"  >Milnen White sweatshirt</h6>
+            <button class="add-to-cart" data-product="Milnen White sweatshirt">Add to Cart</button>
+
+        </div>
+
+
+        <div id="ss4">
+
+            <img  width="300px" height="450px"   src="sweatshirt4.jpg" alt="">
+            <h6 id="ss4d">The Coffe Cream hoodie</h6>
+            <button class="add-to-cart" data-product="The Coffe Cream hoodie">Add to Cart</button>
+
+        </div>
+
+        </div>
+    </section>
+
+
+    <article>
+
+            <div class="footer">
+                <div>
+
+<img   width="700px" src="stylish.jpg" alt=""></div>
+
+
+<div id="quote1">
+<span >
+    <p> “If people turn to look at you on the street,you are not well dressed, but either too stiff, </p>
+    <p>  too tight, or too fashionable.” — Beau Brummel</p>
+</span>
+</div>
+
+
+<div id="quote2">
+    </p>“Fashion is a playground up until a certain age. </p>
+</p>  But then you have to find your own signature and your own style.” — Nicolas Ghesquière</p>
+</div>
+
+
+<div id="virat">
+    <img width="700px" src="virat.jpg" alt="">
+</div>
+
+<DIV class="thank"><h2>-------THANKYOU FOR VISITING-------</h2>
+</DIV>
+
+
+<div class="contact">
+    <span>copyrights are reserved &copy;</span><span>contact- +91 112233665</span> <span> | </span>   <span>Follow on  thefashion.insta |  thefashion123@gmail.com </span>
+
+</div>
+
+
+
+
+
+<!-- Shopping cart counter -->
+<div class="cart-info">
+    <span>Items in Cart: </span><span id="cart-count">0</span>
+</div>
+
+<!-- Contact form -->
+<div class="contact-form">
+    <h3>Contact Us</h3>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+
+
+            </div>
+
+    </article>
+
+
+    <script src="ecjscript.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIRTS</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Notable&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+<style>
+body{
+    background-color: #9BB0C1;
+    
+}
+
+.div{
+    
+        font-family: "Notable", sans-serif;
+        font-size: 30px;
+        margin-left: 10px;
+
+
+}
+
+a{
+    text-decoration: none;
+    margin-left: 60px;
+    color: black;
+    transition: ease 0.3s;
+    font-size: 19px;
+}
+.a{
+    margin-left: 860px;
+    margin-top: -55px;
+}
+
+a:hover{
+    color: #E8751A;
+  transition: ease 0.3s;
+
+}
+#shirt{
+    text-decoration: underline;
+}
+.pixel{
+    margin-top:-20px;
+    margin-left: -12px;
+    margin-right: -12px;
+
+}
+
+.navadjst{
+    margin-top: -1000px;
+}
+
+.img1{
+    margin-top: 1000px;
+    margin-left: 30px;
+    
+}
+.img1:hover{
+    transition:ease-in-out 0.3s;
+    transform: translateY(-10px)
+
+} 
+
+.img1data{
+padding-left: 150px;
+}
+
+.img2{
+
+    margin-left: 580px;
+    margin-top: -630px;
+
+}
+
+.img2:hover{
+    transition:ease-in-out 0.3s;
+    transform: translateY(-10px)
+}
+
+
+.img2data{
+    margin-left: 150px;
+    margin-top: -30px;
+}
+
+
+.img3{
+    margin-left: 1100px;
+    margin-top: -650px;
+}
+
+.img3:hover{
+    transition: ease 0.3s;
+    transform: translateY(-10px);
+}
+
+
+.img4{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.img5{
+    margin-left: 600px;
+    margin-top: -690px;
+}
+
+.img6{
+    margin-left: 1100px;
+    margin-top: -690px;
+}
+.cart-info {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.add-to-cart {
+    background-color: #FF6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 100px;
+    padding-top: -180px;
+}
+
+.add-to-cart:hover {
+    background-color: #FF4500;
+}
+
+</style>
+
+
+
+<body>
+    <nav>
+        <div class="pixel">
+            <img width="100%" src="pexels-michael-burrows-7129182.jpg" alt="">
+        </div>
+
+        <div class="navadjst">
+        <div class="div">
+            <p>THE FASHION</p>
+        </div>
+
+        <div class="a">
+
+            <a href="fashion.html">HOME</a><a  id="shirt" href="shirts.html">SHIRTS</a><a href="">PANTS</a><a href="">JACKETS</a>
+        </div>
+    </div>
+    </nav>
+
+    <section>
+
+
+        <div class="img1">
+            <img  width="380px"  src="cfdc671f1735a5e5d8c8f1e86a3e379f.jpg" alt="">
+
+        </div>
+        <div class="img1data">
+        <h4 style="font-size: 30px;">cotton shirt</h4>
+        <p style="padding-left: 20px;margin-top: -30px;"> Price - 450/-</p>
+        <button class="add-to-cart" data-product="cotton shirt">Add to Cart</button>
+
+    </div>
+
+
+<div class="img2">
+    <img id="img2" width="380px"  src="s2.jpg" alt="">
+    <div>
+        <h4 style="margin-left: 70px; font-size: 30px;">cotton Blender White</h4>
+        <p class="img2data">Price - 499/-</p>
+        <button class="add-to-cart" data-product="cotton Blender White">Add to Cart</button>
+
+    </div>
+</div>
+
+
+<div class="img3">
+    <img width="380px" height="500px" src="men-formal-shirt-500x500.webp" alt="">
+    <h4 style="margin-left: 80px;font-size: 30px;">Mystic Blue silk Shirt </h4>
+    <p style="margin-left: 190px;margin-top: -30px;">Price - 650/-</p>
+    <button class="add-to-cart" data-product="Mystic Blue silk Shirt ">Add to Cart</button>
+
+</div>
+
+
+<div class="img4">
+    <img src="jeanshirt.jpg" alt="">
+
+    <h4 style="font-size: 35px; margin-top: 5px;margin-left: 30px;">Denim Shirt</h4>
+    <p style="margin-top: -35px;margin-left: 60px;">Price - 659/-</p>
+    <button class="add-to-cart" data-product="Denim Shirt">Add to Cart</button>
+
+
+</div>
+
+
+<div class="img5">
+    <img  width="380px" height="600px" src="img.jpg" alt="">
+    <h4 style="font-size: 30px;margin-left: 60px;margin-top: 5px;">Prince White Shirt</h4>
+    <p style="margin-left: 100px;margin-top: -25px">Price - 699/-</p>
+    <button class="add-to-cart" data-product="Prince White Shirt">Add to Cart</button>
+
+</div>
+
+
+<div class="img6">
+
+    <img  width="350px"height="600px" src="jdenim.jpg" alt="">
+    <h4 style="font-size: 30px;margin-left: 80px;margin-top: 0%;">Casual Denim</h4>
+    <p style="margin-left: 100px; margin-top: -30px;">Price - 599/-</p>
+    <button class="add-to-cart" data-product="Casual Denim">Add to Cart</button>
+
+
+</div>
+
+<div>
+    <img src="ramcharan.jpg" alt="">
+</div>
+
+<div>
+    <h3 style="text-align: center;">Thankyou for visiting us 😄</h3>
+</div>
+
+
+
+
+<!-- Shopping cart counter -->
+<div class="cart-info">
+    <span>Items in Cart: </span><span id="cart-count">0</span>
+</div>
+
+
+
+
+
+    </section>
+
+
+    <script src="ecjscript.js"></script>
+
+</body>
+</html>
+
+
+
+
+javascript code
+
+// Shopping Cart Implementation
+let cartCount = 0;
+const cartCounter = document.getElementById('cart-count');
+const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+addToCartButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        cartCount++;
+        cartCounter.textContent = cartCount; // Update cart count display
+        alert(`${button.getAttribute('data-product')} added to cart!`);
+    });
+});
+
+// Welcome Popup
+window.onload = function() {
+    setTimeout(() => {
+        alert("Welcome to The Fashion! Explore our exclusive collection!");
+    }, 1000);
+};
+
+// Contact Form Validation
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !email || !message) {
+        alert('Please fill in all fields.');
+    } else if (!validateEmail(email)) {
+        alert('Please enter a valid email address.');
+    } else {
+        alert('Thank you for contacting us!');
+        document.getElementById('contactForm').reset(); // Reset form
+    }
+});
+
+// Email Validation Function
+function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+}
